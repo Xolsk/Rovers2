@@ -2,12 +2,12 @@
 Version 2 of Rover kata
 
 INSTALL NOTES
-Download these files into a folder
-run "npm install" to install WebPack and Jasmine
-open index.html on the "dist" folder
+Download these files into a folder /n
+run "npm install" to install WebPack and Jasmine /n
+open index.html on the "dist" folder /n
 
 USER NOTES
-If no valid map is provided, it will default to a 50x50 one
+If no valid map is provided, it will default to a 50x50 one /n
 If no valid deployment coordinates are provided, it will default to 0x0.
 Rovers will stop if they reach another Rover or the limit of the map.
 When reading through the orders it will ignore unmatched orders and just focus on recognisable ones. This does not have much sense now, but would make things easier in the future if we decide to add extra orders.
