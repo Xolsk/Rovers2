@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:content-box;
+
+}
+
+body {
+	margin: 0;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+}
+
+
+#demoContainer {
+	text-align: center;
+	margin: 40px auto;
+}
+
+#fileInputLabel {
+	width: 200px;
+	cursor: pointer;
+	background-color: #336699;
+	color: white;
+	padding: 10px;
+	display: block;
+	margin: 0 auto;
+}
+
+#readBtn {
+	width: 200px;
+	cursor: pointer;
+	background-color: #336699;
+	color: white;
+	padding: 10px;
+	display: block;
+	margin: 0 auto;
+}
+
+#fileInput {
+	display: none;
+}
+
+#fileProgressContainer {
+	display: none;
+	margin: 15px 0 0 0;
+}
+
+#answers{
+	border:1px solid black;
+	margin:1rem;
+	width:50%;
+}
+.flexContainer{
+	display:flex;
+	width:100%;
+
+}
+
+#input,#output {
+
+	margin:1rem;
+	border:1px solid black;
+	width:50%;
+	overflow: auto;
+}
+
+#mapContainer{
+padding:1rem 0;
+font-size:2rem;
+	
+}
+
+.line{
+	padding:0.5rem;
+}
+
+#mapContainer div{
+	font-size:2rem;
+	font-weight:bold;
+}

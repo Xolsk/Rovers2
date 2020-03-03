@@ -1,0 +1,16 @@
+{
+  "name": "rover2",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "webpack": "4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
