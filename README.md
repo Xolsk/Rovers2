@@ -2,11 +2,13 @@
 Version 2 of Rover kata
 
 INSTALL NOTES
+
 Download these files into a folder 
 run "npm install" to install WebPack and Jasmine 
 open index.html on the "dist" folder 
 
 USER NOTES
+
 If no valid map is provided, it will default to a 50x50 one 
 
 If no valid deployment coordinates are provided, it will default to 0x0.
