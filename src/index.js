@@ -13,7 +13,6 @@ window.onload = () => {
 async function loadInfo(){
 
     let file = document.getElementById('fileInput');
-    let roverList = [];
     if (file.files.length > 0) {
 
         const fileData = await FileManager.processFile(file.files[0]);
