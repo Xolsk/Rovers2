@@ -54,7 +54,7 @@ class Orders {
         const occupiedCoordinateXY = occupiedCoordinateX.filter(element => element[1] == position[1]);
         if (occupiedCoordinateXY.length > 0 ||
             position[0] > map.size[0] ||
-            position[1] > map.size[0] ||
+            position[1] > map.size[1] ||
             position[0] < 0 ||
             position[1] < 0
         ) {
