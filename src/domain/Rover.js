@@ -8,6 +8,10 @@ class Rover extends AbsVehicle {
         super("Rover", position, orientation, orders);
     }
 
+    setBackupOrder(){
+        this.backupOrder.push(this.position[0]);
+        this.backupOrder.push(this.position[1]);
+    }
     move(map) {
 
         for (let i = 0; i < this.orders.length; i++) {
@@ -17,8 +21,7 @@ class Rover extends AbsVehicle {
             switch (order) {
 
                 case "M": {
-                    this.backupOrder.push(this.position[0]);
-                    this.backupOrder.push(this.position[1]);
+                    this.setBackupOrder();
                     status = Orders.forward(this.position, this.orientation, map);
                     if (status.condition == "crash") {
                         i = this.orders.length;
