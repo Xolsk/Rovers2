@@ -11,6 +11,6 @@
   "devDependencies": {
     "jasmine": "^3.5.0",
     "webpack": "4.41.6",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
